@@ -1,0 +1,78 @@
+@import "./config.scss";
+
+@include media-sm {
+  .app-content {
+    flex-direction: column;
+    h3 {
+      margin: 6px auto;
+    }
+  }
+
+  .input-group {
+    margin-top: 12px;
+  }
+
+  .contents {
+    flex-wrap: wrap;
+  }
+  .content {
+    margin: 6px auto;
+    width: 43%;
+  }
+}
+
+@include media-xsm {
+  .app {
+    h1 {
+      text-align: center;
+    }
+  }
+  .app-contents {
+    text-align: center;
+    h3 {
+      font-size: 16px;
+    }
+  }
+
+  .input-group {
+    input {
+      padding: 12px 6px;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  .country {
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+  }
+}
+
+.app {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-contents {
+  display: flex;
+  align-items: center;
+}
+
+.app-content {
+  display: flex;
+  margin-left: 12px;
+
+  h3 {
+    background-color: #61892f;
+    padding: 12px 24px;
+    border-radius: 9px;
+    margin: 6px 12px;
+  }
+}

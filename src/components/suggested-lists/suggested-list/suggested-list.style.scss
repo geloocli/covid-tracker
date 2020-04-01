@@ -1,0 +1,10 @@
+li {
+  list-style-type: none;
+  cursor: pointer;
+  display: block;
+  padding: 3px 0 3px 18px;
+  border-radius: 2px;
+  &:hover {
+    background-color: #86c232;
+  }
+}
